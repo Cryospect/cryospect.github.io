@@ -1,5 +1,8 @@
-welcome {
+#welcome {
 
-  color:aqua
+  color: #7661fa;
+  text-align: center;
+  font-family: monospace;
+  text-decoration-style: dotted;
 
 }
