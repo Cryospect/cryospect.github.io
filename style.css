@@ -7,13 +7,20 @@
 
 }
 
+body {
+
+  background-image: url(assets/placeholderbg.jpg);
+
+}
+
 .header {
 
-  background: #6852ff;
+  background: #333436;
   color: #cfcfcf;
   padding: 20px;
   text-align: left;
   font-size: 25px;
+  opacity: 0.60;
 
 }
 
@@ -31,7 +38,8 @@
 font-family: monospace;
 list-style-type: none;
 overflow: hidden;
-background-color: #6852ff;
+background-color: #333436;
+opacity: 0.60;
 
 }
 
