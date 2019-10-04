@@ -7,11 +7,22 @@
 
 }
 
-body {
+.background {
 
-  background-image: url(assets/placeholderbg.jpg);
+  background-image: url(assets/background.gif); /* Temporarily commented out until better image is found.*/
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed; /* Without this, image will not load */
+  filter: blur(6px);
+  transform: scale(1.5,1.5);
+
+}
+
+.allcontent {
+
+  position: fixed;
 
 }
 
@@ -77,4 +88,30 @@ opacity: 0.60;
 
   color: #73d5ff;
 
+}
+
+.mainc_home {
+
+  background-color: rgba(51, 52, 54, 0.6);
+  margin-top: 90px;
+  margin-left: 105px;
+  margin-right: 105px;
+  padding-bottom: 500px;
+  border-radius: 100px;
+  text-align: center;
+
+}
+
+.mainc_logo {
+  width: 50%;
+}
+
+.footerc {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(51, 52, 54);
+  color: #cfcfcf;
+  text-align: center;
 }
