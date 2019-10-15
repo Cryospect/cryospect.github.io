@@ -1,0 +1,25 @@
+html {
+
+ margin: 0;
+
+}
+
+.wip-an {
+
+  text-align: center;
+  font-size: 55px;
+  padding: 19.2%;
+  font-variant: small-caps;
+  color: white;
+  text-decoration: overline;
+  text-decoration-color: #64d9d9;
+
+}
+
+body {
+
+  background-image: url(assets/backgroundW.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
